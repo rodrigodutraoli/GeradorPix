@@ -1,3 +1,3 @@
 # GeradorPix
 
-A description of this package.
+https://www.bcb.gov.br/content/estabilidadefinanceira/spb_docs/ManualBRCode.pdf
