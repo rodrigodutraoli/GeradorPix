@@ -10,43 +10,6 @@ public struct GeradorPix {
     let currency: Int
     let countryCode: String
     
-    init(
-        version: String = "01",
-        key: String,
-        city: String,
-        name: String,
-        value: String?,
-        transactionId: String? = "***",
-        message: String?,
-        cep: String? = nil,
-        currency: Int = 986,
-        countryCode: String = "BR"
-    ){
-        self.version = version
-        self.key = key
-        self.city = city
-        self.name = name
-        self.value = value
-        self.transactionId = transactionId
-        self.message = message
-        self.cep = cep
-        self.currency  = currency
-        self.countryCode = countryCode
-    }
-}
-
-public struct OperacaoPix {
-    let version: String
-    let key: String
-    let city: String
-    let name: String
-    let value: String?
-    let transactionId: String?
-    let message: String?
-    let cep: String?
-    let currency: Int
-    let countryCode: String
-    
     public init(
         version: String = "01",
         key: String,
@@ -141,6 +104,4 @@ public struct OperacaoPix {
         
         return "\(id)\(len)\(parameter)"
     }
-    
-    
 }
